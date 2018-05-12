@@ -4,7 +4,7 @@ class PdfController < ApplicationController
     case params[:key]
     when ENV.fetch('PDF_ACCESS_KEY')
       url = params[:url]
-      text = Yomu.new(url).text
+      text = Henkei.new(url).text
       render plain: text
     else
       render plain: "Invalid Key"

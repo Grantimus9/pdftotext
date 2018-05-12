@@ -20,7 +20,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
 
-gem 'yomu' #pulls pdf to text, essential to scraper.
+gem 'henkei' #pulls pdf to text, essential to scraper.
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
